@@ -47,6 +47,7 @@ async function sendOpenIssues(ctx) {
 
 // Command to handle /start
 bot.start((ctx) => {
+  console.log("Hellloooo");
   ctx.reply(
     "Welcome! I'll keep you updated on new issues. Here are the current open issues:"
   );
